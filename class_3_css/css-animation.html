@@ -4,15 +4,18 @@
 css poetry
 
 <style>
-
+body {
+  background: linear-gradient(3deg, #e1289a, #0a7eff);
+}
+  
   
 
 @keyframes example {
-  10%   {background-color:red; left:0px; top:0px;}
-  25%  {background-color:yellow; left:200px; top:0px;}
-  50%  {background-color:blue; left:200px; top:200px;}
-  75%  {background-color:green; left:0px; top:200px;}
-  100% {background-color:red; left:0px; top:0px;}
+  10%   {background-color:linear-gradient(0deg, blue, green 40%, red)); left:0px; top:0px;}
+  25%  {background-color:linear-gradient(#e66465, #9198e5); left:200px; top:0px;}
+  50%  {background-color:linear-gradient(#e66465, #9198e5); left:200px; top:200px;}
+  75%  {background-color:linear-gradient(#e66465, #9198e5); left:0px; top:200px;}
+  100% {background-color:linear-gradient(#e66465, #9198e5); left:0px; top:0px;}
 
 }
 
@@ -25,22 +28,22 @@ css poetry
 
 }
 .square {
-  height: 200;
+  height: 300;
   width: 200;
-  border-left: 100px solid grey;
-  border-right: 100px solid black;
-  border-bottom: 100px solid blue;
-    border-top: 100px solid brown;
+  border-left: 70px solid #e1289a;
+  border-right: 70px solid #4ca1ff;
+  border-bottom: 100px solid #0a7eff;
+    border-top: 100px solid #ff69b4;
 
    position: relative;
   animation-name: example;
-  animation-duration: 20s;
+  animation-duration: 10s;
    animation-iteration-count:infinite;
 }
 .triangle {
   height: 200;
   width: 100;
-  border-left: 100px solid pink;
+  border-left: 100px linear-gradient(#e66465, #9198e5);
   border-right: 100px solid blue;
   border-bottom: 100px solid #b3ff66;
         position: relative;
@@ -75,12 +78,8 @@ css poetry
 
  
 <div class="square"></div>
-<br>
-<div class="triangle"></div>
-<br>
-<div class="square"></div>
-<br>
- <div class="circle"></div>
+<br> 
+<br> 
  <br>
 </body>
 </html> 

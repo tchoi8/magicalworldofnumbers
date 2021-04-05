@@ -1,0 +1,32 @@
+<html>
+<body>
+<script type="text/javascript">
+
+function HalfPyramid1 (height) {
+  
+  for (var i = 1; i <= height; i++) {
+    var row = '';
+    
+    for (var j = 1; j <= (height - i + 1); j++) {
+      row += ' ';
+    }
+        for (var j = 1; j <= (height - i + 1); j++) {
+      row += '*';
+    }
+    document.write("<br>");
+    document.write(row);
+  }    
+}
+
+HalfPyramid1(5);
+</script> 
+</body>
+</html>
+
+
+*****
+****
+***
+**
+* 
+

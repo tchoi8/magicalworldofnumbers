@@ -1,0 +1,111 @@
+<html>
+
+<head> 
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400&family=Gothic+A1:wght@100;200&display=swap" rel="stylesheet">
+
+
+  <style>
+
+    body {
+
+      padding:100px; 
+      margin:100px;
+      border-style: dotted;
+
+
+      text-align:left;
+      font-family: 'Gaegu', cursive;
+      font-family: 'Gothic A1', sans-serif;
+      font-size: 20;
+      font-weight: bold;
+    }
+
+
+    br {   
+      content: "";
+      display: block; 
+      padding:10;   
+    }
+  
+  </style>
+
+</head>
+
+<body>
+
+
+
+<script type="text/javascript" >
+
+var str=window.prompt("당신의 이름은 무엇인가요?");
+
+document.write("반가워요! " + str);
+
+</script>
+
+
+ 
+
+var str="까꿍"
+
+document.write(str);
+
+
+</script>
+
+
+<script type="text/javascript">
+	
+ 
+for (var i=0; i<=10; i++) {
+document.write("counting" + i + "<br>")
+
+	}      
+
+</script>
+
+
+<script type="text/javascript">
+
+for (var i=1; i<=10; i++) 
+{	
+ 	var line="";	
+
+	for (var j=1; j<=i; j++)
+	{
+    line+="* ";
+  }
+
+  document.write(line+"<br>");
+}
+
+
+function HalfPyramid1 (height) {
+  
+  for (var i = 1; i <= height; i++) {
+    var row = '';
+    
+    for (var j = 1; j <= (height - i + 1); j++) {
+      row += ' ';
+    }
+        for (var j = 1; j <= (height - i + 1); j++) {
+      row += '*';
+    }
+    document.write("<br>");
+    document.write(row);
+  }    
+}
+
+
+HalfPyramid1(5);
+
+</script>
+		 
+ 
+   
+</body>
+</html>
